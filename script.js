@@ -10,15 +10,15 @@ document.querySelectorAll('nav a').forEach(link => {
 });
 
 // Theme toggle
-const toggle = document.getElementById("theme-toggle");
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-  toggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
-});
+//const toggle = document.getElementById("theme-toggle");
+//toggle.addEventListener("click", () => {
+//  document.body.classList.toggle("dark");
+//  toggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+//});
 
 // Animated text
 const text = document.querySelector(".animated-text");
-const phrases = ["Automation Tester", "SDET", "Problem Solver"];
+const phrases = ["Automation Tester", "SDET"];
 let i = 0;
 setInterval(() => {
   text.textContent = phrases[i];
